@@ -1,11 +1,11 @@
 
 import { useState } from "react";
-import { Sidebar } from "@/components/Sidebar";
-import { Dashboard } from "@/components/Dashboard";
-import { ProductStock } from "@/components/ProductStock";
-import { Sales } from "@/components/Sales";
-import { Customers } from "@/components/Customers";
-import { Settings } from "@/components/Settings";
+import { Sidebar } from "../components/Sidebar";
+import { Dashboard } from "../components/Dashboard";
+import { ProductStock } from "../components/ProductStock";
+import { Sales } from "../components/Sales";
+import { Customers } from "../components/Customers";
+import { Settings } from "../components/Settings";
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("dashboard");
